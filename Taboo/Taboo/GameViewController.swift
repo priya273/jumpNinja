@@ -1,8 +1,8 @@
 //
 //  GameViewController.swift
-//  jumpNinja
+//  Taboo
 //
-//  Created by Naga Sarath Thodime on 7/18/15.
+//  Created by Naga Sarath Thodime on 7/30/15.
 //  Copyright (c) 2015 priyadarshini Ragupathy. All rights reserved.
 //
 
@@ -12,7 +12,7 @@ import SpriteKit
 
 class GameViewController: UIViewController
 {
-
+    
     //Declare Game scene class, which does most of our game logic
     var scene: GameScene!;
     
@@ -27,7 +27,9 @@ class GameViewController: UIViewController
         //downcaste the UI view to SKview
         
         
-        var skview: SKView = view as! SKView;          skview.showsFPS = true;
+        var skview: SKView = view as! SKView;
+        
+        skview.showsFPS = true;
         
         //pass size to position objects
         
@@ -39,5 +41,7 @@ class GameViewController: UIViewController
         
         
     }
-    
+
 }
+
+ 

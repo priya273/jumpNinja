@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		15D91F921B5AAA8E00C0FA75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D91F911B5AAA8E00C0FA75 /* AppDelegate.swift */; };
-		15D91F941B5AAA8E00C0FA75 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 15D91F931B5AAA8E00C0FA75 /* GameScene.sks */; };
 		15D91F961B5AAA8E00C0FA75 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D91F951B5AAA8E00C0FA75 /* GameScene.swift */; };
 		15D91F981B5AAA8E00C0FA75 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D91F971B5AAA8E00C0FA75 /* GameViewController.swift */; };
 		15D91F9B1B5AAA8E00C0FA75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D91F991B5AAA8E00C0FA75 /* Main.storyboard */; };
 		15D91F9D1B5AAA8E00C0FA75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15D91F9C1B5AAA8E00C0FA75 /* Images.xcassets */; };
 		15D91FA01B5AAA8E00C0FA75 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15D91F9E1B5AAA8E00C0FA75 /* LaunchScreen.xib */; };
 		15D91FAC1B5AAA8E00C0FA75 /* jumpNinjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D91FAB1B5AAA8E00C0FA75 /* jumpNinjaTests.swift */; };
+		15D91FE81B5CE3E200C0FA75 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 15D91FE71B5CE3E200C0FA75 /* sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +31,6 @@
 		15D91F8C1B5AAA8E00C0FA75 /* jumpNinja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jumpNinja.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15D91F901B5AAA8E00C0FA75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15D91F911B5AAA8E00C0FA75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		15D91F931B5AAA8E00C0FA75 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		15D91F951B5AAA8E00C0FA75 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		15D91F971B5AAA8E00C0FA75 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		15D91F9A1B5AAA8E00C0FA75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +39,7 @@
 		15D91FA51B5AAA8E00C0FA75 /* jumpNinjaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jumpNinjaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15D91FAA1B5AAA8E00C0FA75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15D91FAB1B5AAA8E00C0FA75 /* jumpNinjaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jumpNinjaTests.swift; sourceTree = "<group>"; };
+		15D91FE71B5CE3E200C0FA75 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = sprites.atlas; path = jumpNinja.xcodeproj/../../sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +63,7 @@
 		15D91F831B5AAA8E00C0FA75 = {
 			isa = PBXGroup;
 			children = (
+				15D91FE71B5CE3E200C0FA75 /* sprites.atlas */,
 				15D91F8E1B5AAA8E00C0FA75 /* jumpNinja */,
 				15D91FA81B5AAA8E00C0FA75 /* jumpNinjaTests */,
 				15D91F8D1B5AAA8E00C0FA75 /* Products */,
@@ -82,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				15D91F911B5AAA8E00C0FA75 /* AppDelegate.swift */,
-				15D91F931B5AAA8E00C0FA75 /* GameScene.sks */,
 				15D91F951B5AAA8E00C0FA75 /* GameScene.swift */,
 				15D91F971B5AAA8E00C0FA75 /* GameViewController.swift */,
 				15D91F991B5AAA8E00C0FA75 /* Main.storyboard */,
@@ -200,7 +200,7 @@
 			files = (
 				15D91FA01B5AAA8E00C0FA75 /* LaunchScreen.xib in Resources */,
 				15D91F9D1B5AAA8E00C0FA75 /* Images.xcassets in Resources */,
-				15D91F941B5AAA8E00C0FA75 /* GameScene.sks in Resources */,
+				15D91FE81B5CE3E200C0FA75 /* sprites.atlas in Resources */,
 				15D91F9B1B5AAA8E00C0FA75 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
